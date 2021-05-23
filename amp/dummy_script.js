@@ -55,3 +55,4 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				image : 'https://satchmo496.github.io/images'
 			}
 		});
+});	
