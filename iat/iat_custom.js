@@ -2,6 +2,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     var API = new APIConstructor();
 
 	return iatExtension({
+		fullscreen:true,
 		category1 : {
 			name : 'Black people', //Will appear in the data.
 			title : {
@@ -43,7 +44,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		}
 	});
 
-	fullscreen:true,
+	
 	showDebriefing:true, //Show feedback in the last trial? Relevant only in a Qualtrics IAT because in Qualtrics we cannot access the saved feedback and IAT score later in the survey.
 	//Texts for the trials that show the debriefing.
 	preDebriefingText : 'Press space to see your result', //Text in the trial that comes before showing the debriefing.
