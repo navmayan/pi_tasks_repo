@@ -104,7 +104,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
       					sharedAttTrials : 2, //7,
       					categoryTrials : 2 //7
       				}
-      			]
+      			],
 
   base_url : {//Where are your images at?
     image : 'https://baranan.github.io/minno-tasks/images/'
